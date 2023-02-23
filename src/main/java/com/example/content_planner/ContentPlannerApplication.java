@@ -8,12 +8,12 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.nodes.DataNode;
 import org.jsoup.select.Elements;
-
+import org.apache.commons.math3.fraction.*;
 
 import java.io.IOException;
 
-import com.google.common.*;
-import com.google.common.base.Joiner;
+//import com.google.common.*;
+//import com.google.common.base.Joiner;
 
 
 @SpringBootApplication
@@ -46,18 +46,25 @@ public class ContentPlannerApplication {
 
 			// Michael - testing out Google Guava
 			// Using Guava's joiner tool to recreate the list above
-			System.out.println("\nNow with Guava\n==============\n");
+//			System.out.println("\nNow with Guava\n==============\n");
+//
+//			String[] stringList = new String[links.size()];
+//			int i = 0;
+//			for (Element link : links) {
+//				stringList[i] = "\nlink : " + link.attr("href") + "\ntext : " + link.text();
+//				i++;
+//			}
+//
+//			System.out.println(Joiner.on("\n").skipNulls().join(stringList));
 
-			String[] stringList = new String[links.size()];
-			int i = 0;
-			for (Element link : links) {
-				stringList[i] = "\nlink : " + link.attr("href") + "\ntext : " + link.text();
-				i++;
-			}
+			// Alondra - testing commons math3 library for A4
+			System.out.println("--------------- ALONDRA - COMMONS MATH3 TESTING------------------");
+			Fraction lhs = new Fraction(1, 3);
+			Fraction rhs = new Fraction(2, 5);
+			Fraction sum = lhs.add(rhs);
 
-			System.out.println(Joiner.on("\n").skipNulls().join(stringList));
-
-			
+			String str = new FractionFormat().format(sum);
+			System.out.println(str);
 
 		} catch (IOException e) {
 			e.printStackTrace();
