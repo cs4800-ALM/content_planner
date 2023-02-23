@@ -56,7 +56,7 @@ public class ContentPlannerApplication {
 			}
 
 			System.out.println(Joiner.on("\n").skipNulls().join(stringList));
-	  
+
 			
 
 		} catch (IOException e) {
