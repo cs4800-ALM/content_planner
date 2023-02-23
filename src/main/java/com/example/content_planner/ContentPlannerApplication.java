@@ -2,12 +2,19 @@ package com.example.content_planner;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.jsoup.*;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
+import org.jsoup.nodes.DataNode;
 import org.jsoup.select.Elements;
 
+
 import java.io.IOException;
+
+import com.google.common.*;
+import com.google.common.base.Joiner;
+
 
 @SpringBootApplication
 public class ContentPlannerApplication {
@@ -36,6 +43,21 @@ public class ContentPlannerApplication {
 				System.out.println("text : " + link.text());
 
 			}
+
+			// Michael - testing out Google Guava
+			// Using Guava's joiner tool to recreate the list above
+			System.out.println("\nNow with Guava\n==============\n");
+
+			String[] stringList = new String[links.size()];
+			int i = 0;
+			for (Element link : links) {
+				stringList[i] = "\nlink : " + link.attr("href") + "\ntext : " + link.text();
+				i++;
+			}
+
+			System.out.println(Joiner.on("\n").skipNulls().join(stringList));
+	  
+			
 
 		} catch (IOException e) {
 			e.printStackTrace();
