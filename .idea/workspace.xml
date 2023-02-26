@@ -4,13 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82fa8ccb-562b-4689-af67-5b5d4a54145e" name="Changes" comment="Alondra - added apache commons math lib">
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+    <list default="true" id="82fa8ccb-562b-4689-af67-5b5d4a54145e" name="Changes" comment="Linda - Updates to main to have code run with google.common">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mysql_mysql_connector_j_8_0_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_14_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_14_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content_planner.iml" beforeDir="false" afterPath="$PROJECT_DIR$/content_planner.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/content_planner/ContentPlannerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/content_planner/ContentPlannerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/content_planner/Greeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/content_planner/ContentPlanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/content_planner/GreetingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/content_planner/ContentPlannerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/content_planner/ContentPlannerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/content_planner/ContentPlannerApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/content_planner/Greeting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/content_planner/GreetingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +45,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -127,6 +135,7 @@
     <MESSAGE value="adding Spring Rest HTTP example to github" />
     <MESSAGE value="Linda - Adding Jsoup Lib" />
     <MESSAGE value="Alondra - added apache commons math lib" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alondra - added apache commons math lib" />
+    <MESSAGE value="Linda - Updates to main to have code run with google.common" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linda - Updates to main to have code run with google.common" />
   </component>
 </project>
