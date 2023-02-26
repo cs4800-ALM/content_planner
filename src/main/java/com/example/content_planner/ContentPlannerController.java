@@ -15,7 +15,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ContentPlannerController {
 
-
     @GetMapping("/search/date")
     public static String search_content(@RequestParam String date) {
 
@@ -46,7 +45,7 @@ public class ContentPlannerController {
 
             // if the date in the db matches the date that the user entered, then add this to the array list
             if(value.contentEquals(date)){
-                result.add(key);
+                result.add("Title: " + key + " | " + "Date to Post: " + value);
             }
 
         }
