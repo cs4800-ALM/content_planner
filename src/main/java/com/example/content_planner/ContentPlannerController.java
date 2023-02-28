@@ -16,7 +16,7 @@ import java.util.Hashtable;
 @Controller
 public class ContentPlannerController {
 
-    @RequestMapping(method = RequestMethod.GET, value = "/")
+    @RequestMapping(method = RequestMethod.GET, value = "/demo")
     public String aName() {
         return "index.html";
     }
