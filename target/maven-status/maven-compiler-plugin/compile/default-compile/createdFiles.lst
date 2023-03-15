@@ -1,3 +1,6 @@
+com/example/content_planner/service/ContentPostService.class
+com/example/content_planner/exception/UserNotFoundException.class
+com/example/content_planner/model/ContentPost.class
 com/example/content_planner/ContentPlannerApplication.class
 com/example/content_planner/ContentPlannerController.class
-com/example/content_planner/ContentPlanner.class
+com/example/content_planner/repo/ContentPostRepo.class
