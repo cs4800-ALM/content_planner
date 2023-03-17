@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82fa8ccb-562b-4689-af67-5b5d4a54145e" name="Changes" comment="Linda - updating database to include correct data">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+    <list default="true" id="82fa8ccb-562b-4689-af67-5b5d4a54145e" name="Changes" comment="Linda - Junit test: Testing date length within db">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content_planner.iml" beforeDir="false" afterPath="$PROJECT_DIR$/content_planner.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/content_planner/ContentPlannerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/content_planner/ContentPlannerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/content_planner/ContentPlannerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/content_planner/ContentPlannerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/content_planner/ContentPlannerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/content_planner/ContentPlannerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/content_planner/ContentPlannerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/content_planner/ContentPlannerApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/content_planner/ContentPlannerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/content_planner/ContentPlannerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/content_planner/ContentPlannerApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/content_planner/ContentPlannerApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +49,46 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ContentPlannerApplicationTests.testInternalDB2">
+    <configuration name="ContentPlannerApplicationTests.testInternalDB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="content_planner" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.content_planner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.content_planner" />
+      <option name="MAIN_CLASS_NAME" value="com.example.content_planner.ContentPlannerApplicationTests" />
+      <option name="METHOD_NAME" value="testInternalDB" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContentPlannerApplicationTests.testInternalDB2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="content_planner" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.content_planner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.content_planner" />
+      <option name="MAIN_CLASS_NAME" value="com.example.content_planner.ContentPlannerApplicationTests" />
+      <option name="METHOD_NAME" value="testInternalDB2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ContentPlannerApplicationTests.testInternalDB2" />
+        <item itemvalue="JUnit.ContentPlannerApplicationTests.testInternalDB" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -142,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677455669822</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Linda - Junit test: Testing date length within db">
+      <created>1678997707111</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1678997707111</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,6 +207,7 @@
     <MESSAGE value="Linda - Updates to main to have code run with google.common" />
     <MESSAGE value="Linda - connecting to json DB example" />
     <MESSAGE value="Linda - updating database to include correct data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linda - updating database to include correct data" />
+    <MESSAGE value="Linda - Junit test: Testing date length within db" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linda - Junit test: Testing date length within db" />
   </component>
 </project>

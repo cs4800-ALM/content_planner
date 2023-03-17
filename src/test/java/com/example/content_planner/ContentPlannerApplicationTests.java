@@ -20,72 +20,38 @@ class ContentPlannerApplicationTests {
 
 	// Unit test to test the length of dates being inputted into the database
 	// should not be longer than 10 characters long
+	// testInternalDB1 is the correct length
+	// testInternalDB2 is the incorrect length
     @Test
-	public void testInternalDB(){
+	public void testInternalDB1(){
 
-		String tempDateCorrect = "02/26/2023";
-		String tempDateIncorrect = "002/026/02020";
+		ContentPlannerApplication cpa = new ContentPlannerApplication();
 
-		// simple search bar to search through Key: title for the draft of content Value: date mm/dd/yyyy
-		// if date == dateEntered, then list all titles
-		Dictionary<String, String> search_content = new Hashtable<>();
-		search_content.put("Test content title 1", "02/26/2023");  // one
-		search_content.put("Test content title 2", "02/28/2023");
-		search_content.put("Test content title 3", "03/01/2023");
-		search_content.put("Test content title 4", "03/02/2023");
-		search_content.put("Test content title 5", "03/03/2023");
-		search_content.put("Test content title 6", "02/26/2023"); // two
-		search_content.put("Test content title 7", "03/05/2023");
-		search_content.put("Test content title 8", "03/06/2023");
-		search_content.put("Test content title 9", "03/07/2023");
-		search_content.put("Test content title 10","02/26/2023"); // three    - if the user enters the date of 2/26/2023, then 3 different titles should populate
+		ContentPlanner cp = new ContentPlanner();
 
-		// arrayList to hold the result that will display
-		ArrayList<String> result = new ArrayList<String>();
+		cp.setDate("03/14/2023");
 
-		// Enumerating the elements of the dictionary
-		Enumeration<String> keys = search_content.keys();
+		// UNIT TEST TO CHECK FOR STRING LENGTH
+		assert cp.getDate().length() == 10 : "String length is CORRECT";
 
-		// search the dictionary to see if the date that the user entered matches anything in the database
-		while (keys.hasMoreElements()){
-			String key = keys.nextElement();
-			String value = search_content.get(key);
+		cpa.internalDB(cp);
+
+	}
+
+	@Test
+	public void testInternalDB2(){
+
+		ContentPlannerApplication cpa = new ContentPlannerApplication();
+
+		ContentPlanner cp = new ContentPlanner();
+
+		cp.setDate("03/0004/2023");
 
 
-			// UNIT TEST TO CHECK FOR STRING LENGTH
-			assert tempDateCorrect.length() == 10 : "String length is CORRECT";
+		// UNIT TEST TO CHECK FOR STRING LENGTH
+		assert cp.getDate().length() == 10 : "String length is INCORRECT";
 
-
-			// if the date in the db matches the date that the user entered, then add this to the array list
-			if(value.contentEquals(tempDateCorrect)){
-
-				result.add("Title: " + key + " | " + "Date to Post: " + value);
-			}
-		}
-
-		// Creating Object of ObjectMapper define in Jackson
-		// Api
-		ObjectMapper Obj = new ObjectMapper();
-
-		String jsonStr = null;
-
-		// Try block to check for exceptions
-		try {
-
-			// Getting organisation object as a json string
-			jsonStr = Obj.writeValueAsString(result);
-
-			// Displaying JSON String on console
-			System.out.println(jsonStr);
-		}
-
-		// Catch block to handle exceptions
-		catch (IOException e) {
-
-			// Display exception along with line number
-			// using printStackTrace() method
-			e.printStackTrace();
-		}
+		cpa.internalDB(cp);
 
 	}
 
