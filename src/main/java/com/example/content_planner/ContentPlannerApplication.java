@@ -90,4 +90,31 @@ public class ContentPlannerApplication {
 		return jsonStr;
 	}
 
+	public boolean validateSearchDate(ContentPlanner contentPlanner) {
+		boolean result = false;
+		String tempDate = contentPlanner.getDate();
+		String tempMonth = tempDate.substring(0, 2);
+		String tempDay = tempDate.substring(3,5);
+		String tempYear = tempDate.substring(6,10);
+
+		//display input date elements
+		System.out.println("Month: " + tempMonth);
+		System.out.println("Day: " + tempDay);
+		System.out.println("Year: " + tempYear);
+
+		int inputMonth = Integer.parseInt(tempMonth);
+		int inputDay = Integer.parseInt(tempDay);
+		int inputYear = Integer.parseInt(tempYear);
+		// if any of these conditions are not met, return false
+		if (inputMonth > 0 && inputMonth<13 ) {
+			if (inputDay > 0 && inputDay < 31){
+				if (inputYear >= 2023){
+					result = true;
+				}
+			}
+		}
+		System.out.println("result: " + result);
+		return result;
+	}
+
 }

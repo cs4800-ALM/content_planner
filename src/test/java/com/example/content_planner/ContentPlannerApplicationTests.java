@@ -55,4 +55,47 @@ class ContentPlannerApplicationTests {
 
 	}
 
+	@Test
+	public void testValidateSearchDate1(){
+		ContentPlannerApplication cpa = new ContentPlannerApplication();
+
+		ContentPlanner cp = new ContentPlanner();
+
+		cp.setDate("11/11/1111");
+
+		assert cpa.validateSearchDate(cp) == false : "Invalid Year";
+	}
+
+	@Test
+	public void testValidateSearchDate2(){
+		ContentPlannerApplication cpa = new ContentPlannerApplication();
+
+		ContentPlanner cp = new ContentPlanner();
+
+		cp.setDate("11/43/2023");
+
+		assert cpa.validateSearchDate(cp) == false : "Invalid Day";
+	}
+
+	@Test
+	public void testValidateSearchDate3(){
+		ContentPlannerApplication cpa = new ContentPlannerApplication();
+
+		ContentPlanner cp = new ContentPlanner();
+
+		cp.setDate("44/13/2023");
+
+		assert cpa.validateSearchDate(cp) == false : "Invalid Month";
+	}
+
+	@Test
+	public void testValidateSearchDate4(){
+		ContentPlannerApplication cpa = new ContentPlannerApplication();
+
+		ContentPlanner cp = new ContentPlanner();
+
+		cp.setDate("12/13/2023");
+
+		assert cpa.validateSearchDate(cp) == true : "Valid Date";
+	}
 }

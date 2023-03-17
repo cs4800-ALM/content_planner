@@ -95,6 +95,7 @@ public class ContentPlannerController {
         ContentPlannerApplication cpa = new ContentPlannerApplication();
 
         String jsonStr = cpa.internalDB(contentPlanner);
+        cpa.validateSearchDate(contentPlanner);
 
         model.addAttribute("title", jsonStr);
 
