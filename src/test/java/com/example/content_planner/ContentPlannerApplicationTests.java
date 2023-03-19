@@ -94,6 +94,17 @@ class ContentPlannerApplicationTests {
 
 		ContentPlanner cp = new ContentPlanner();
 
+		cp.setDate("12/13//2023");
+
+		assert cpa.validateSearchDate(cp) == false : "Invalid Format";
+	}
+
+	@Test
+	public void testValidateSearchDate5(){
+		ContentPlannerApplication cpa = new ContentPlannerApplication();
+
+		ContentPlanner cp = new ContentPlanner();
+
 		cp.setDate("12/13/2023");
 
 		assert cpa.validateSearchDate(cp) == true : "Valid Date";
