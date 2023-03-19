@@ -93,6 +93,9 @@ public class ContentPlannerApplication {
 	public boolean validateSearchDate(ContentPlanner contentPlanner) {
 		boolean result = false;
 		String tempDate = contentPlanner.getDate();
+		if (tempDate.length() != 10){
+			return result;
+		}
 		String tempMonth = tempDate.substring(0, 2);
 		String tempDay = tempDate.substring(3,5);
 		String tempYear = tempDate.substring(6,10);
@@ -102,9 +105,18 @@ public class ContentPlannerApplication {
 		System.out.println("Day: " + tempDay);
 		System.out.println("Year: " + tempYear);
 
-		int inputMonth = Integer.parseInt(tempMonth);
-		int inputDay = Integer.parseInt(tempDay);
-		int inputYear = Integer.parseInt(tempYear);
+		int inputMonth = 0;
+		int inputDay = 0;
+		int inputYear = 0;
+		try {
+			inputMonth = Integer.parseInt(tempMonth);
+			inputDay = Integer.parseInt(tempDay);
+			inputYear = Integer.parseInt(tempYear);
+		}
+		catch (NumberFormatException e){
+			return result;
+		}
+
 		// if any of these conditions are not met, return false
 		if (inputMonth > 0 && inputMonth<13 ) {
 			if (inputDay > 0 && inputDay < 31){
