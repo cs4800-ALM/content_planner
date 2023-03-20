@@ -48,10 +48,7 @@ public class ContentPlannerController {
         contentPostService.deleteContentPost(id);
         return new ResponseEntity<>(HttpStatus.OK);
     }
-
 }
-
-
 
 //    //    @RequestMapping(method = RequestMethod.GET, value = "/demo")
 //    @GetMapping("/")
