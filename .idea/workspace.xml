@@ -5,24 +5,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82fa8ccb-562b-4689-af67-5b5d4a54145e" name="Changes" comment="Linda - Connected to MySQL db">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/target/surefire-reports/TEST-com.example.content_planner.ContentPlannerApplicationTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content_planner.iml" beforeDir="false" afterPath="$PROJECT_DIR$/content_planner.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content_planner.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/content_planner/ContentPlannerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/content_planner/ContentPlannerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/content_planner/ContentPlannerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/content_planner/ContentPlannerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/contentPost.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/contentPost.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/content_planner/ContentPlanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/content_planner/ContentPlannerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/content_planner/ContentPlannerApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/content_planner/ContentPlannerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/content_planner/ContentPlannerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/content_planner/ContentPlannerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/content_planner/ContentPlannerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/content_planner/ContentPlannerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/content_planner/ContentPlannerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/content_planner/exception/UserNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/content_planner/exception/UserNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/content_planner/model/ContentPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/content_planner/model/ContentPost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/content_planner/repo/ContentPostRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/content_planner/repo/ContentPostRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/content_planner/service/ContentPostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/content_planner/service/ContentPostService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/static/assets/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/img/bg-callout.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/static/assets/img/bg-callout.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/img/bg-masthead.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/static/assets/img/bg-masthead.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/img/portfolio-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/static/assets/img/portfolio-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/img/portfolio-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/static/assets/img/portfolio-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/img/portfolio-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/static/assets/img/portfolio-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/img/portfolio-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/static/assets/img/portfolio-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/static/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/templates/index2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/content_planner/ContentPlannerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/example/content_planner/ContentPlannerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/content_planner/ContentPlannerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/example/content_planner/ContentPlannerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/content_planner/ContentPlannerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/example/content_planner/ContentPlannerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/static/assets/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/img/bg-callout.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/static/assets/img/bg-callout.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/img/bg-masthead.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/static/assets/img/bg-masthead.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/img/portfolio-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/static/assets/img/portfolio-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/img/portfolio-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/static/assets/img/portfolio-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/img/portfolio-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/static/assets/img/portfolio-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/img/portfolio-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/static/assets/img/portfolio-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/static/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/templates/index2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/content_planner-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.content_planner.ContentPlannerApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.example.content_planner.ContentPlannerApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/surefire-reports/com.example.content_planner.ContentPlannerApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/content_planner/ContentPlannerApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/test-classes/com/example/content_planner/ContentPlannerApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +81,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2M4pJxjbdURnaUCLhyOqodc0T5n" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -51,11 +92,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/lindathao/Desktop/CS4800 SWE/content_planner_versions/content_planner",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "/Users/lindathao/Desktop/CS4800SWE/ContentPlanner_Current/content_planner/backend",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -63,8 +108,59 @@
       <recent name="com.example.content_planner.exception" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend" />
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.frontend [verify]">
+    <configuration name="ContentPlannerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.content_planner.ContentPlannerApplication" />
+      <module name="backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.content_planner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="frontend [verify]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="verify" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/frontend" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Maven.frontend [verify]" />
+        <item itemvalue="Application.ContentPlannerApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
