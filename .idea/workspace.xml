@@ -4,63 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82fa8ccb-562b-4689-af67-5b5d4a54145e" name="Changes" comment="Linda - Connected to MySQL db">
-      <change afterPath="$PROJECT_DIR$/backend/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/target/surefire-reports/TEST-com.example.content_planner.ContentPlannerApplicationTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="82fa8ccb-562b-4689-af67-5b5d4a54145e" name="Changes" comment="Linda - combining backend and frontend">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content_planner.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/content_planner/ContentPlannerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/content_planner/ContentPlannerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/content_planner/ContentPlannerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/content_planner/ContentPlannerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/content_planner/exception/UserNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/content_planner/exception/UserNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/content_planner/model/ContentPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/content_planner/model/ContentPost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/content_planner/repo/ContentPostRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/content_planner/repo/ContentPostRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/content_planner/service/ContentPostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/content_planner/service/ContentPostService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/static/assets/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/img/bg-callout.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/static/assets/img/bg-callout.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/img/bg-masthead.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/static/assets/img/bg-masthead.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/img/portfolio-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/static/assets/img/portfolio-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/img/portfolio-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/static/assets/img/portfolio-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/img/portfolio-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/static/assets/img/portfolio-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/img/portfolio-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/static/assets/img/portfolio-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/static/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/templates/index2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/content_planner/ContentPlannerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/example/content_planner/ContentPlannerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/content_planner/ContentPlannerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/example/content_planner/ContentPlannerApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/content_planner/ContentPlannerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/example/content_planner/ContentPlannerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/static/assets/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/img/bg-callout.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/static/assets/img/bg-callout.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/img/bg-masthead.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/static/assets/img/bg-masthead.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/img/portfolio-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/static/assets/img/portfolio-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/img/portfolio-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/static/assets/img/portfolio-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/img/portfolio-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/static/assets/img/portfolio-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/img/portfolio-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/static/assets/img/portfolio-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/static/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/templates/index2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/content_planner-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.content_planner.ContentPlannerApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.example.content_planner.ContentPlannerApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/surefire-reports/com.example.content_planner.ContentPlannerApplicationTests.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/content_planner/ContentPlannerApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/test-classes/com/example/content_planner/ContentPlannerApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678860857004</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Linda - combining backend and frontend">
+      <created>1680834251949</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1680834251949</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -280,6 +232,8 @@
     <MESSAGE value="Linda - connecting to json DB example" />
     <MESSAGE value="Linda - updating database to include correct data" />
     <MESSAGE value="Linda - Connected to MySQL db" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linda - Connected to MySQL db" />
+    <MESSAGE value="Linda -" />
+    <MESSAGE value="Linda - combining backend and frontend" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linda - combining backend and frontend" />
   </component>
 </project>
