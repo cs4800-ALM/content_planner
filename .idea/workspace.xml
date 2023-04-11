@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82fa8ccb-562b-4689-af67-5b5d4a54145e" name="Changes" comment="Linda - combining backend and frontend">
+    <list default="true" id="82fa8ccb-562b-4689-af67-5b5d4a54145e" name="Changes" comment="Linda - combining backend and frontend pt 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -207,7 +207,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680834251949</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Linda - combining backend and frontend pt 2">
+      <created>1681226919630</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1681226919630</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Linda - combining backend and frontend pt 2">
+      <created>1681227070536</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1681227070536</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -234,6 +248,8 @@
     <MESSAGE value="Linda - Connected to MySQL db" />
     <MESSAGE value="Linda -" />
     <MESSAGE value="Linda - combining backend and frontend" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linda - combining backend and frontend" />
+    <MESSAGE value="Linda - Unversioned files" />
+    <MESSAGE value="Linda - combining backend and frontend pt 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linda - combining backend and frontend pt 2" />
   </component>
 </project>
