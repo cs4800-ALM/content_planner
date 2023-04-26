@@ -20,41 +20,42 @@ public class ContentPlannerController {
 
     // return all posts
     @GetMapping("/all")
-    public ResponseEntity<List<ContentPost>> getAllContentPosts(){
+    public ResponseEntity<List<ContentPost>> getAllContentPosts() {
         List<ContentPost> contentPosts = contentPostService.findAllContentPosts();
         return new ResponseEntity<>(contentPosts, HttpStatus.OK);
     }
 
     @GetMapping("/find/{id}")
-    public ResponseEntity<ContentPost> getContentPostsByID(@PathVariable("id") Long id){
-       ContentPost contentPosts = contentPostService.findContentPostByID(id);
+    public ResponseEntity<ContentPost> getContentPostsByID(@PathVariable("id") Long id) {
+        ContentPost contentPosts = contentPostService.findContentPostByID(id);
         return new ResponseEntity<>(contentPosts, HttpStatus.OK);
     }
 
     @PostMapping("/add")
-    public ResponseEntity<ContentPost> addContentPost(@RequestBody ContentPost contentPost){
+    public ResponseEntity<ContentPost> addContentPost(@RequestBody ContentPost contentPost) {
         ContentPost newContentPosts = contentPostService.addContentPost(contentPost);
         return new ResponseEntity<>(newContentPosts, HttpStatus.CREATED);
     }
 
     @PutMapping("/update")
-    public ResponseEntity<ContentPost> updateContentPost(@RequestBody ContentPost contentPost){
+    public ResponseEntity<ContentPost> updateContentPost(@RequestBody ContentPost contentPost) {
         ContentPost updateContentPosts = contentPostService.updateContentPost(contentPost);
         return new ResponseEntity<>(updateContentPosts, HttpStatus.OK);
     }
 
     @DeleteMapping("/delete/{id}")
-    public ResponseEntity<?> deleteContentPost(@PathVariable("id") Long id){
+    public ResponseEntity<?> deleteContentPost(@PathVariable("id") Long id) {
         contentPostService.deleteContentPost(id);
         return new ResponseEntity<>(HttpStatus.OK);
     }
-}
+//}
 
-//    //    @RequestMapping(method = RequestMethod.GET, value = "/demo")
-//    @GetMapping("/")
-//    public String aName() {
-//        return "index.html";
-//    }
+    //    @RequestMapping(method = RequestMethod.GET, value = "/demo")
+    @GetMapping("/")
+    public String aName() {
+        return "index-original.html";
+    }
+}
 //
 //    @PostMapping("/register")
 //    public String contentSearch(@ModelAttribute ContentPlanner contentPlanner, Model model) {
