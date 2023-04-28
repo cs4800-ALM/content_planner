@@ -4,7 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82fa8ccb-562b-4689-af67-5b5d4a54145e" name="Changes" comment="Linda - Junit test: Testing date length within db" />
+    <list default="true" id="82fa8ccb-562b-4689-af67-5b5d4a54145e" name="Changes" comment="Linda - Junit test: Testing date length within db">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/content_planner/ContentPlannerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/content_planner/controller/ContentPlannerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/content_planner/model/ContentPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/content_planner/model/ContentPost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/templates/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/templates/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/content_planner/ContentPlannerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/example/content_planner/ContentPlannerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/content_planner/ContentPlannerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/content_planner/exception/UserNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/example/content_planner/exception/UserNotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/content_planner/model/ContentPost.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/example/content_planner/model/ContentPost.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/content_planner/repo/ContentPostRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/example/content_planner/repo/ContentPostRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/content_planner/service/ContentPostService.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/example/content_planner/service/ContentPostService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/templates/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/templates/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/test-classes/com/example/content_planner/ContentPlannerApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/test-classes/com/example/content_planner/ContentPlannerApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/content-planner/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/content-planner/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/content-planner/src/app/icons/icons.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/content-planner/src/app/icons/icons.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/content-planner/src/app/icons/icons.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/content-planner/src/app/icons/icons.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/content-planner/src/app/insta/insta.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/content-planner/src/app/insta/insta.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/content-planner/src/app/insta/insta.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/content-planner/src/app/insta/insta.component.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +41,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -23,6 +51,14 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
@@ -33,9 +69,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/content-planner/src/app" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.content_planner.exception" />
@@ -48,6 +86,8 @@
       <recent name="$PROJECT_DIR$/backend" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/content-planner/src/app" />
+      <recent name="$PROJECT_DIR$/frontend/content-planner/src/app/posts" />
       <recent name="$PROJECT_DIR$/backend" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -58,7 +98,7 @@
       <module name="backend" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.content_planner.*" />
+          <option name="PATTERN" value="com.example.content_planner.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

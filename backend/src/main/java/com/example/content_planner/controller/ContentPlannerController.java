@@ -1,4 +1,4 @@
-package com.example.content_planner;
+package com.example.content_planner.controller;
 
 import com.example.content_planner.model.ContentPost;
 import com.example.content_planner.service.ContentPostService;

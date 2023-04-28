@@ -2,9 +2,9 @@ package com.example.content_planner.model;
 
 // similar to ContentPlanner - this will replace contentPlanner
 
-import jakarta.persistence.*;
+        import jakarta.persistence.*;
 
-import java.io.Serializable;
+        import java.io.Serializable;
 
 // Replacing ContentPlanner class
 @Entity
