@@ -19,21 +19,21 @@ public class User {
     private String fName;
     @Column(name = "last_name")
     private String lName;
-    @Column(name = "home_address")
-    private String address;
+//    @Column(name = "home_address")
+//    private String address;
     @Column(name = "about_me")
     private String aboutMe;
 
 
     public User(){ }
 
-    public User(String userName, String email, String fName, String lName, String address, String aboutMe) {
+    public User(String userName, String email, String fName, String lName, String aboutMe) {
         super();
         this.userName = userName;
         this.email = email;
         this.fName = fName;
         this.lName = lName;
-        this.address = address;
+//        this.address = address;
         this.aboutMe = aboutMe;
     }
 
@@ -78,13 +78,13 @@ public class User {
         this.lName = lName;
     }
 
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
-    }
+//    public String getAddress() {
+//        return address;
+//    }
+//
+//    public void setAddress(String address) {
+//        this.address = address;
+//    }
 
     public String getAboutMe() {
         return aboutMe;

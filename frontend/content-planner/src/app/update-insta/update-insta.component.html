@@ -4,7 +4,7 @@
       <div class="col-md-8">
         <div class="card">
           <div class="header">
-            <h4 class="title">Let's draft an Instagram post</h4>
+            <h4 class="title">Update an Instagram post</h4>
           </div>
           <div class="content">
             <form (ngSubmit) = "onSubmit()">
@@ -13,7 +13,7 @@
                   <div class="form-group">
                     <label>Draft Title</label>
                     <input type="text" class="form-control" placeholder="Name your draft" id = "title"
-                        [(ngModel)] = "post.title" name = "title">
+                           [(ngModel)] = "post.title" name = "title">
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -38,10 +38,10 @@
                     <label for="branch">Content Category</label>
                     <select id="branch" name="branch" ngModel class="form-control" id = "contentCateg"
                             [(ngModel)] = "post.contentCateg" name = "contentCateg">
-                      <option value="Carousel Post">Carousel Post</option>
-                      <option value="Post">Post</option>
-                      <option value="Reel">Reel</option>
-                      <option value="Story">Story</option>
+                      <option value="1">Educationsl</option>
+                      <option value="2">Tutorial</option>
+                      <option value="3">Testimonal</option>
+                      <option value="4">Personable</option>
                     </select>
                   </div>
                 </div>
@@ -98,7 +98,7 @@
                 </div>
               </div>
 
-              <button type="submit" class="btn btn-info btn-fill pull-right">Save Draft</button>
+              <button type="submit" class="btn btn-info btn-fill pull-right">Update Draft</button>
               <div class="clearfix"></div>
             </form>
           </div>
@@ -129,3 +129,4 @@
     </div>
   </div>
 </div>
+

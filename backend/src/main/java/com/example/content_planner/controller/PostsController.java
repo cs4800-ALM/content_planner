@@ -1,16 +1,15 @@
 package com.example.content_planner.controller;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
+import com.example.content_planner.exception.ResourceNotFoundException;
 import com.example.content_planner.model.Posts;
 import com.example.content_planner.repo.PostsRepo;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
 
 @CrossOrigin(origins = "http://localhost:4200")
@@ -33,37 +32,42 @@ public class PostsController {
     }
 
     // get posts by id rest api
-//    @GetMapping("/posts/{id}")
-//    public ResponseEntity<Employee> getEmployeeById(@PathVariable Long id) {
-//        Employee employee = employeeRepository.findById(id)
-//                .orElseThrow(() -> new ResourceNotFoundException("Employee not exist with id :" + id));
-//        return ResponseEntity.ok(employee);
-//    }
-//
-//    // update employee rest api
-//
-//    @PutMapping("/employees/{id}")
-//    public ResponseEntity<Employee> updateEmployee(@PathVariable Long id, @RequestBody Employee employeeDetails){
-//        Employee employee = employeeRepository.findById(id)
-//                .orElseThrow(() -> new ResourceNotFoundException("Employee not exist with id :" + id));
-//
-//        employee.setFirstName(employeeDetails.getFirstName());
-//        employee.setLastName(employeeDetails.getLastName());
-//        employee.setEmailId(employeeDetails.getEmailId());
-//
-//        Employee updatedEmployee = employeeRepository.save(employee);
-//        return ResponseEntity.ok(updatedEmployee);
-//    }
-//
-//    // delete employee rest api
-//    @DeleteMapping("/employees/{id}")
-//    public ResponseEntity<Map<String, Boolean>> deleteEmployee(@PathVariable Long id){
-//        Employee employee = employeeRepository.findById(id)
-//                .orElseThrow(() -> new ResourceNotFoundException("Employee not exist with id :" + id));
-//
-//        employeeRepository.delete(employee);
-//        Map<String, Boolean> response = new HashMap<>();
-//        response.put("deleted", Boolean.TRUE);
-//        return ResponseEntity.ok(response);
-//    }
+    @GetMapping("/posts/{id}")
+    public ResponseEntity<Posts> getPostById(@PathVariable Long id) {
+        Posts posts = postsRepo.findById(id)
+                .orElseThrow(() -> new ResourceNotFoundException("Post does not exist with id :" + id));
+        return ResponseEntity.ok(posts);
+    }
+
+    // update post rest api
+    @PutMapping("/posts/{id}")
+    public ResponseEntity<Posts> updatePost(@PathVariable Long id, @RequestBody Posts postDetails){
+        Posts posts = postsRepo.findById(id)
+                .orElseThrow(() -> new ResourceNotFoundException("Post not exist with id :" + id));
+
+        posts.setTitle(postDetails.getTitle());
+        posts.setPostDate(postDetails.getPostDate());
+        posts.setAudioName(postDetails.getAudioName());
+        posts.setContentCateg(postDetails.getContentCateg());
+        posts.setScrollStopper(postDetails.getScrollStopper());
+        posts.setCaption(postDetails.getCaption());
+        posts.setHashtags(postDetails.getHashtags());
+        posts.setTags(postDetails.getTags());
+        posts.setAltText(postDetails.getAltText());
+
+        Posts updatedPost = postsRepo.save(posts);
+        return ResponseEntity.ok(updatedPost);
+    }
+
+    // delete post rest api
+    @DeleteMapping("/posts/{id}")
+    public ResponseEntity<Map<String, Boolean>> deletePost(@PathVariable Long id){
+        Posts posts = postsRepo.findById(id)
+                .orElseThrow(() -> new ResourceNotFoundException("Post not exist with id :" + id));
+
+        postsRepo.delete(posts);
+        Map<String, Boolean> response = new HashMap<>();
+        response.put("deleted", Boolean.TRUE);
+        return ResponseEntity.ok(response);
+    }
 }

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-// import { NgModule} from '@angular/core';
+import { NgModule} from '@angular/core';
 import { Post } from '../post';
 import { PostService } from '../post.service';
 import { Router } from '@angular/router';
@@ -26,7 +26,7 @@ export class InstaComponent implements OnInit {
     }
 
   goToPostList(){
-      this.router.navigate(['/#/insta']);
+      this.router.navigate(['/icons']);
     }
 
   onSubmit(){
