@@ -4,15 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82fa8ccb-562b-4689-af67-5b5d4a54145e" name="Changes" comment="Linda - Junit test: Testing date length within db">
+    <list default="true" id="82fa8ccb-562b-4689-af67-5b5d4a54145e" name="Changes" comment="Linda - connected frontend to backend pt 2.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/content_planner/ContentPlannerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/content_planner/ContentPlannerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/content_planner/ContentPlannerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/content_planner/ContentPlannerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/content_planner/ContentPlannerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/content_planner/ContentPlannerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/content_planner/ContentPlannerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/content_planner/ContentPlannerApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/content_planner/ContentPlannerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/content_planner/ContentPlannerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/content_planner/ContentPlannerApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/content_planner/ContentPlannerApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/content_planner/controller/PostsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/content_planner/controller/PostsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/content_planner/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/content_planner/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/content_planner/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/content_planner/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/content_planner/controller/PostsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/example/content_planner/controller/PostsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/content_planner/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/example/content_planner/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/content_planner/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/example/content_planner/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/content-planner/src/app/icons/icons.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/content-planner/src/app/icons/icons.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/content-planner/src/app/icons/icons.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/content-planner/src/app/icons/icons.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/content-planner/src/app/insta/insta.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/content-planner/src/app/insta/insta.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/content-planner/src/app/insta/insta.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/content-planner/src/app/insta/insta.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/content-planner/src/app/layouts/admin-layout/admin-layout.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/content-planner/src/app/layouts/admin-layout/admin-layout.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/content-planner/src/app/layouts/admin-layout/admin-layout.routing.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/content-planner/src/app/layouts/admin-layout/admin-layout.routing.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/content-planner/src/app/post.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/content-planner/src/app/post.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/content-planner/src/app/post.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/content-planner/src/app/post.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/content-planner/src/app/user/user.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/content-planner/src/app/user/user.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/content-planner/src/app/user/user.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/content-planner/src/app/user/user.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +32,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -32,70 +42,100 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2M4pJxjbdURnaUCLhyOqodc0T5n" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.content_planner.exception" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/content-planner/src/app" />
+      <recent name="$PROJECT_DIR$/backend/src/main/resources/static/css" />
+      <recent name="$PROJECT_DIR$/backend/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/backend/src/main" />
+      <recent name="$PROJECT_DIR$/backend" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/content-planner/src/app" />
+      <recent name="$PROJECT_DIR$/frontend/content-planner/src/app/posts" />
+      <recent name="$PROJECT_DIR$/backend" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ContentPlannerApplicationTests">
-    <configuration name="ContentPlannerApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="content_planner" />
+  <component name="RunManager" selected="Maven.frontend [verify]">
+    <configuration name="ContentPlannerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.content_planner.ContentPlannerApplication" />
+      <module name="backend" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.content_planner.*" />
+          <option name="PATTERN" value="com.example.content_planner.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.content_planner" />
-      <option name="MAIN_CLASS_NAME" value="com.example.content_planner.ContentPlannerApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContentPlannerApplicationTests.testInternalDB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="content_planner" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.content_planner.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.content_planner" />
-      <option name="MAIN_CLASS_NAME" value="com.example.content_planner.ContentPlannerApplicationTests" />
-      <option name="METHOD_NAME" value="testInternalDB" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContentPlannerApplicationTests.testInternalDB2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="content_planner" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.content_planner.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.content_planner" />
-      <option name="MAIN_CLASS_NAME" value="com.example.content_planner.ContentPlannerApplicationTests" />
-      <option name="METHOD_NAME" value="testInternalDB2" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="frontend [verify]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="verify" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/frontend" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ContentPlannerApplicationTests" />
-        <item itemvalue="JUnit.ContentPlannerApplicationTests.testInternalDB2" />
-        <item itemvalue="JUnit.ContentPlannerApplicationTests.testInternalDB" />
+        <item itemvalue="Maven.frontend [verify]" />
+        <item itemvalue="Application.ContentPlannerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -185,14 +225,49 @@
       <option name="project" value="LOCAL" />
       <updated>1677455669822</updated>
     </task>
-    <task id="LOCAL-00012" summary="Linda - Junit test: Testing date length within db">
-      <created>1678997707111</created>
+    <task id="LOCAL-00012" summary="Linda - Connected to MySQL db">
+      <created>1678860857004</created>
       <option name="number" value="00012" />
       <option name="presentableId" value="LOCAL-00012" />
       <option name="project" value="LOCAL" />
-      <updated>1678997707111</updated>
+      <updated>1678860857004</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Linda - combining backend and frontend">
+      <created>1680834251949</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1680834251949</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Linda - combining backend and frontend pt 2">
+      <created>1681226919630</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1681226919630</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Linda - combining backend and frontend pt 2">
+      <created>1681227070536</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1681227070536</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Linda - connected frontend to backend">
+      <created>1682664458827</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1682664458827</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Linda - connected frontend to backend pt 2.">
+      <created>1682788895982</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1682788895982</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,7 +280,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -217,7 +291,13 @@
     <MESSAGE value="Linda - Updates to main to have code run with google.common" />
     <MESSAGE value="Linda - connecting to json DB example" />
     <MESSAGE value="Linda - updating database to include correct data" />
-    <MESSAGE value="Linda - Junit test: Testing date length within db" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linda - Junit test: Testing date length within db" />
+    <MESSAGE value="Linda - Connected to MySQL db" />
+    <MESSAGE value="Linda -" />
+    <MESSAGE value="Linda - combining backend and frontend" />
+    <MESSAGE value="Linda - Unversioned files" />
+    <MESSAGE value="Linda - combining backend and frontend pt 2" />
+    <MESSAGE value="Linda - connected frontend to backend" />
+    <MESSAGE value="Linda - connected frontend to backend pt 2." />
+    <option name="LAST_COMMIT_MESSAGE" value="Linda - connected frontend to backend pt 2." />
   </component>
 </project>

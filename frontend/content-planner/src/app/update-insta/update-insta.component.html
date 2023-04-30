@@ -1,0 +1,132 @@
+<div class="main-content" >
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="card">
+          <div class="header">
+            <h4 class="title">Update an Instagram post</h4>
+          </div>
+          <div class="content">
+            <form (ngSubmit) = "onSubmit()">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label>Draft Title</label>
+                    <input type="text" class="form-control" placeholder="Name your draft" id = "title"
+                           [(ngModel)] = "post.title" name = "title">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Post Date</label>
+                    <input type="email" class="form-control" placeholder="mm/dd/yyyy" id = "postDate"
+                           [(ngModel)] = "post.postDate" name = "postDate">
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label>Audio</label>
+                    <input type="text" class="form-control" placeholder="Audio name" id = "audioName"
+                           [(ngModel)] = "post.audioName" name = "audioName">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="branch">Content Category</label>
+                    <select id="branch" name="branch" ngModel class="form-control" id = "contentCateg"
+                            [(ngModel)] = "post.contentCateg" name = "contentCateg">
+                      <option value="1">Educationsl</option>
+                      <option value="2">Tutorial</option>
+                      <option value="3">Testimonal</option>
+                      <option value="4">Personable</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label>Scroll Stopper</label>
+                    <input type="text" class="form-control" placeholder="Here can be a phrase that will catch your audience's attention. This is the beginning of your caption"
+                           id = "scrollStopper"
+                           [(ngModel)] = "post.scrollStopper" name = "scrollStopper">
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label>Caption</label>
+                    <textarea rows="5" class="form-control" placeholder="Expand on your scroll stopper here" id = "caption"
+                              [(ngModel)] = "post.caption" name = "caption"></textarea>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label>Hashtags</label>
+                    <textarea rows="5" class="form-control" placeholder="List hashtags describing your content and business" id = "hashtags"
+                              [(ngModel)] = "post.hashtags" name = "hashtags"></textarea>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label>Tags</label>
+                    <textarea rows="5" class="form-control" placeholder="List accounts you want to tag on this post" id = "tags"
+                              [(ngModel)] = "post.tags" name = "tags"></textarea>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label>Alt Text</label>
+                    <textarea rows="5" class="form-control" placeholder="Describe your content for people with visual impairments" id = "altText"
+                              [(ngModel)] = "post.altText" name = "altText"></textarea>
+                  </div>
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-info btn-fill pull-right">Update Draft</button>
+              <div class="clearfix"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card card-user">
+          <div class="image">
+            <img src="https://ununsplash.imgix.net/photo-1431578500526-4d9613015464?fit=crop&fm=jpg&h=300&q=75&w=400" alt="..."/>
+          </div>
+          <div class="content">
+            <div class="author">
+              <a href="#">
+
+                <h4 class="title">Linda Thao<br />
+                  <small>michael24</small>
+                </h4>
+              </a>
+            </div>
+            <p class="description text-center"> "Lamborghini Mercy <br>
+              Your chick she so thirsty <br>
+              I'm in that two seat Lambo"
+            </p>
+          </div>
+          <hr>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
