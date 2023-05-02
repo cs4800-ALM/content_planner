@@ -32,7 +32,7 @@
                     <nodeVersion>v18.15.0</nodeVersion>
                     <nodeDownloadRoot>https://nodejs.org/dist/</nodeDownloadRoot>
                     <npmVersion>9.6.4</npmVersion>
-                    <workingDirectory>content-planner-ui</workingDirectory>
+                    <workingDirectory>content-planner</workingDirectory>
                 </configuration>
                 <executions>
                     <execution>
