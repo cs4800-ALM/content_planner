@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream:src/main/java/com/example/content_planner/ContentPlannerController.java
 package com.example.content_planner;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -6,6 +7,18 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
+=======
+package com.example.content_planner.controller;
+import com.example.content_planner.model.ContentPost;
+import com.example.content_planner.service.ContentPostService;
+import com.example.content_planner.repo.PostsRepo;
+
+
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.beans.factory.annotation.Autowired;
+>>>>>>> Stashed changes:backend/src/main/java/com/example/content_planner/controller/ContentPlannerController.java
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -16,7 +29,58 @@ import java.util.Hashtable;
 @Controller
 public class ContentPlannerController {
 
+<<<<<<< Updated upstream:src/main/java/com/example/content_planner/ContentPlannerController.java
 //    @RequestMapping(method = RequestMethod.GET, value = "/demo")
+=======
+    private final ContentPostService contentPostService;
+
+    public ContentPlannerController(ContentPostService contentPostService) {
+        this.contentPostService = contentPostService;
+    }
+
+    @Autowired
+    private PostsRepo postRepository;
+
+    // return all posts
+    @GetMapping("/all")
+    public ResponseEntity<List<ContentPost>> getAllContentPosts() {
+        List<ContentPost> contentPosts = contentPostService.findAllContentPosts();
+        return new ResponseEntity<>(contentPosts, HttpStatus.OK);
+    }
+
+    @GetMapping("/find/{id}")
+    public ResponseEntity<ContentPost> getContentPostsByID(@PathVariable("id") Long id) {
+        ContentPost contentPosts = contentPostService.findContentPostByID(id);
+        return new ResponseEntity<>(contentPosts, HttpStatus.OK);
+    }
+
+    @PostMapping("/add")
+    public ResponseEntity<ContentPost> addContentPost(@RequestBody ContentPost contentPost) {
+        ContentPost newContentPosts = contentPostService.addContentPost(contentPost);
+        return new ResponseEntity<>(newContentPosts, HttpStatus.CREATED);
+    }
+
+    @PutMapping("/update")
+    public ResponseEntity<ContentPost> updateContentPost(@RequestBody ContentPost contentPost) {
+        ContentPost updateContentPosts = contentPostService.updateContentPost(contentPost);
+        return new ResponseEntity<>(updateContentPosts, HttpStatus.OK);
+    }
+
+    @DeleteMapping("/delete/{id}")
+    public ResponseEntity<?> deleteContentPost(@PathVariable("id") Long id) {
+        contentPostService.deleteContentPost(id);
+        return new ResponseEntity<>(HttpStatus.OK);
+    }
+
+    @GetMapping("/search")
+    public List<ContentPost> searchPosts(@RequestParam String query) {
+        List<ContentPost> posts = postRepository.searchPostsByTitle(query);
+        return posts;
+    }
+//}
+
+    //    @RequestMapping(method = RequestMethod.GET, value = "/demo")
+>>>>>>> Stashed changes:backend/src/main/java/com/example/content_planner/controller/ContentPlannerController.java
     @GetMapping("/")
     public String aName() {
         return "index.html";

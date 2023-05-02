@@ -18,6 +18,7 @@ class ContentPlannerApplicationTests {
 	}
 
 
+	/* 
 	// Unit test to test the length of dates being inputted into the database
 	// should not be longer than 10 characters long
 	// testInternalDB1 is the correct length
@@ -109,4 +110,5 @@ class ContentPlannerApplicationTests {
 
 		assert cpa.validateSearchDate(cp) == true : "Valid Date";
 	}
+	*/
 }

@@ -1,0 +1,1 @@
+{"ast":null,"code":"\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.User = void 0;\n\nclass User {}\n\nexports.User = User;","map":null,"metadata":{},"sourceType":"script"}
