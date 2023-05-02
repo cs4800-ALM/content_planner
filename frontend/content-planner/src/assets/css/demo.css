@@ -1,19 +1,14 @@
 /*!
-
  =========================================================
  * Light Bootstrap Dashboard Angular - v1.5.1
  =========================================================
-
  * Product Page: https://www.creative-tim.com/product/light-bootstrap-dashboard-angular2
  * Copyright 2016 Creative Tim (http://www.creative-tim.com)
  * Licensed under MIT
-
  =========================================================
-
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
  */
-@media (min-width: 992px){
+ @media (min-width: 992px){
     .typo-line{
         padding-left: 140px;
         margin-bottom: 40px;
@@ -77,3 +72,29 @@
 .table-upgrade td:nth-child(3){
     text-align: center;
 }
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+    width: 300px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }

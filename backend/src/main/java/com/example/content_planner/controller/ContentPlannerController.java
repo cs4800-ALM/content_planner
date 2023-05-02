@@ -1,10 +1,13 @@
 package com.example.content_planner.controller;
-
 import com.example.content_planner.model.ContentPost;
 import com.example.content_planner.service.ContentPostService;
+import com.example.content_planner.repo.PostsRepo;
+
+
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 
@@ -13,6 +16,9 @@ import java.util.List;
 public class ContentPlannerController {
 
     private final ContentPostService contentPostService;
+
+    @Autowired
+    private PostsRepo postRepository;
 
     public ContentPlannerController(ContentPostService contentPostService) {
         this.contentPostService = contentPostService;
@@ -48,6 +54,13 @@ public class ContentPlannerController {
         contentPostService.deleteContentPost(id);
         return new ResponseEntity<>(HttpStatus.OK);
     }
+
+    @GetMapping("/search")
+    public List<ContentPost> searchPosts(@RequestParam String query) {
+        List<ContentPost> posts = postRepository.searchPostsByTitle(query);
+        return posts;
+    }
+
 //}
 
     //    @RequestMapping(method = RequestMethod.GET, value = "/demo")
