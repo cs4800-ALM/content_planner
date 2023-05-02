@@ -41,7 +41,7 @@
                         <p class="hidden-lg hidden-md">Search</p>
                     </a>
                 -->
-                    <form (ngSubmit)="onSubmit()">
+                    <form id="search-form" (ngSubmit)="onSubmit()">
                         <input type="text" name="search" placeholder="Search..." [(ngModel)]="searchQuery" name="searchQuery">
                         <button type="submit">Search</button>
                     </form>
