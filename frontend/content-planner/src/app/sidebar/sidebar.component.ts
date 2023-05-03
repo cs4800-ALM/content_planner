@@ -15,6 +15,7 @@ export const ROUTES: RouteInfo[] = [
     { path: '/insta', title: 'Instagram Draft',  icon:'pe-7s-note', class: '' },
     { path: '/icons', title: 'Icons',  icon:'pe-7s-science', class: '' },
     { path: '/upgrade', title: 'Upgrade to PRO',  icon:'pe-7s-rocket', class: 'active-pro' },
+    { path: '/inspo', title: 'Inspiration',  icon:'pe-7s-note', class: '' },
 ];
 
 @Component({

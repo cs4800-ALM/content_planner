@@ -18,7 +18,12 @@ import { NotificationsComponent } from '../../notifications/notifications.compon
 import { UpgradeComponent } from '../../upgrade/upgrade.component';
 import { InstaComponent } from 'app/insta/insta.component';
 import { UpdateInstaComponent } from 'app/update-insta/update-insta.component';
-
+import { InspoComponent } from 'app/inspo/inspo.component';
+import { MatCardModule } from '@angular/material/card';
+import { MatToolbarModule } from "@angular/material/toolbar";
+import { MatButtonModule } from "@angular/material/button";
+import { FlexLayoutModule } from "@angular/flex-layout";
+import { BrowserModule } from "@angular/platform-browser";
 
 
 @NgModule({
@@ -27,6 +32,11 @@ import { UpdateInstaComponent } from 'app/update-insta/update-insta.component';
     RouterModule.forChild(AdminLayoutRoutes),
     FormsModule,
     LbdModule,
+    MatCardModule,
+    MatToolbarModule,
+    MatButtonModule,
+    FlexLayoutModule,
+    BrowserModule,
     NguiMapModule.forRoot({apiUrl: 'https://maps.google.com/maps/api/js?key=YOUR_KEY_HERE'})
   ],
   declarations: [
@@ -39,7 +49,8 @@ import { UpdateInstaComponent } from 'app/update-insta/update-insta.component';
     NotificationsComponent,
     UpgradeComponent,
     InstaComponent,
-    UpdateInstaComponent
+    UpdateInstaComponent, 
+    InspoComponent
   ]
 })
 

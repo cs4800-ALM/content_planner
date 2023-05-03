@@ -10,6 +10,7 @@ import { NotificationsComponent } from '../../notifications/notifications.compon
 import { UpgradeComponent } from '../../upgrade/upgrade.component';
 import { InstaComponent } from '../../insta/insta.component';
 import { UpdateInstaComponent } from '../../update-insta/update-insta.component';
+import { InspoComponent } from '../../inspo/inspo.component';
 
 export const AdminLayoutRoutes: Routes = [
     { path: 'dashboard',      component: HomeComponent },
@@ -21,6 +22,7 @@ export const AdminLayoutRoutes: Routes = [
     { path: 'notifications',  component: NotificationsComponent },
     { path: 'upgrade',        component: UpgradeComponent },
     { path: 'insta',          component: InstaComponent},
-    { path: 'update-insta/:id', component: UpdateInstaComponent }
+    { path: 'update-insta/:id', component: UpdateInstaComponent }, 
+    { path: 'inspo',          component: InspoComponent}
 
 ];
