@@ -25,6 +25,7 @@ import { MatButtonModule } from "@angular/material/button";
 import { FlexLayoutModule } from "@angular/flex-layout";
 import { BrowserModule } from "@angular/platform-browser";
 
+import {DataTablesModule} from 'angular-datatables';
 
 @NgModule({
   imports: [
@@ -37,6 +38,7 @@ import { BrowserModule } from "@angular/platform-browser";
     MatButtonModule,
     FlexLayoutModule,
     BrowserModule,
+    DataTablesModule,
     NguiMapModule.forRoot({apiUrl: 'https://maps.google.com/maps/api/js?key=YOUR_KEY_HERE'})
   ],
   declarations: [
@@ -49,7 +51,7 @@ import { BrowserModule } from "@angular/platform-browser";
     NotificationsComponent,
     UpgradeComponent,
     InstaComponent,
-    UpdateInstaComponent, 
+    UpdateInstaComponent,
     InspoComponent
   ]
 })

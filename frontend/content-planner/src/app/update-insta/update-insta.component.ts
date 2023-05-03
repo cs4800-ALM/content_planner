@@ -38,3 +38,5 @@ export class UpdateInstaComponent implements OnInit {
     }
 
 }
+
+

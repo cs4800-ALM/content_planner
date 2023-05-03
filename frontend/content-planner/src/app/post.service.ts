@@ -10,7 +10,7 @@ export class PostService {
 
   private baseURL = "http://localhost:8080/api/v1/posts";
 
-  constructor(private httpClient: HttpClient) { }
+  constructor(private httpClient: HttpClient) {}
 
   getPostsList(): Observable<Post[]>{
       return this.httpClient.get<Post[]>(`${this.baseURL}`);

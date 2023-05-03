@@ -12,7 +12,8 @@ import { SidebarModule } from './sidebar/sidebar.module';
 import { AppComponent } from './app.component';
 
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
-import { InspoComponent } from './inspo/inspo.component';
+
+import {DataTablesModule} from 'angular-datatables';
 
 @NgModule({
   imports: [
@@ -24,6 +25,7 @@ import { InspoComponent } from './inspo/inspo.component';
     FooterModule,
     SidebarModule,
     AppRoutingModule,
+     DataTablesModule,
   ],
   declarations: [
     AppComponent,

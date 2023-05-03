@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82fa8ccb-562b-4689-af67-5b5d4a54145e" name="Changes" comment="Alondra - updated angular 15, added inspo component" />
+    <list default="true" id="82fa8ccb-562b-4689-af67-5b5d4a54145e" name="Changes" comment="Linda - connected frontend to backend pt 2.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/content_planner/controller/ContentPlannerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/content_planner/controller/ContentPlannerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/content-planner/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/content-planner/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/content-planner/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/content-planner/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/content-planner/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/content-planner/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/content-planner/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/content-planner/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/content-planner/src/app/icons/icons.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/content-planner/src/app/icons/icons.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/content-planner/src/app/icons/icons.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/content-planner/src/app/icons/icons.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/content-planner/src/app/insta/insta.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/content-planner/src/app/insta/insta.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/content-planner/src/app/layouts/admin-layout/admin-layout.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/content-planner/src/app/layouts/admin-layout/admin-layout.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/content-planner/src/app/post.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/content-planner/src/app/post.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/content-planner/src/app/shared/footer/footer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/content-planner/src/app/shared/footer/footer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/content-planner/src/app/shared/navbar/navbar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/content-planner/src/app/shared/navbar/navbar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/content-planner/src/app/sidebar/sidebar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/content-planner/src/app/sidebar/sidebar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/content-planner/src/app/update-insta/update-insta.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/content-planner/src/app/update-insta/update-insta.component.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +53,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2M4pJxjbdURnaUCLhyOqodc0T5n" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -41,12 +61,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "last_opened_file_path": "/Users/alondrasanchez/content_planner-2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;/Users/alondrasanchez/content_planner-2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.content_planner.exception" />
