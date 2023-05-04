@@ -8,13 +8,13 @@
         <tr>
           <th> Post Title </th>
           <th> Post Date </th>
-          <th> Audio Name</th>
+<!--          <th> Audio Name</th>-->
           <th> Content Category </th>
-          <th> Scroll Stopper </th>
-          <th> Caption </th>
+<!--          <th> Scroll Stopper </th>-->
+<!--          <th> Caption </th>-->
           <th> Hashtags </th>
-          <th> Tags </th>
-          <th> Alt Text </th>
+<!--          <th> Tags </th>-->
+<!--          <th> Alt Text </th>-->
           <th> Update/View </th>
           <th> Delete </th>
         </tr>
@@ -23,13 +23,13 @@
         <tr *ngFor = "let post of posts" >
           <td> {{ post.title }} </td>
           <td> {{ post.postDate }} </td>
-          <td> {{ post.audioName }} </td>
+<!--          <td> {{ post.audioName }} </td>-->
           <td> {{ post.contentCateg }} </td>
-          <td> {{ post.scrollStopper }} </td>
-          <td> {{ post.caption }} </td>
+<!--          <td> {{ post.scrollStopper }} </td>-->
+<!--          <td> {{ post.caption }} </td>-->
           <td> {{ post.hashtags }} </td>
-          <td> {{ post.tags }} </td>
-          <td> {{ post.altText }} </td>
+<!--          <td> {{ post.tags }} </td>-->
+<!--          <td> {{ post.altText }} </td>-->
           <td><button (click) = "updatePost(post.id)" class = "btn btn-success"> Update/View</button></td>
           <td><button (click) = "deletePost(post.id)" class = "btn btn-danger"> Delete</button></td>
         </tr>

@@ -14,7 +14,7 @@ export const ROUTES: RouteInfo[] = [
     { path: '/user', title: 'User',  icon:'pe-7s-user', class: '' },
     { path: '/insta', title: 'Create Draft',  icon:'pe-7s-note', class: '' },
     { path: '/icons', title: 'View Drafts',  icon:'pe-7s-photo-gallery', class: '' },
-    { path: '/upgrade', title: 'Upgrade to PRO',  icon:'pe-7s-rocket', class: 'active-pro' },
+//     { path: '/upgrade', title: 'Upgrade to PRO',  icon:'pe-7s-rocket', class: 'active-pro' },
     { path: '/inspo', title: 'Inspiration',  icon:'pe-7s-magic-wand', class: '' },
 ];
 
