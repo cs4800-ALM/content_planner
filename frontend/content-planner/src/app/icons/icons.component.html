@@ -1,6 +1,8 @@
 <!--<div class="container">-->
 <!--  <div class="card m-1 p-2">-->
 <!--    <div class="card-body">-->
+
+  <div class="main-content">
       <table class="table table-bordered table-striped table-hover" datatable [dtOptions]="dtOptions" [dtTrigger]="dtTrigger">
         <thead>
         <tr>
@@ -28,11 +30,13 @@
           <td> {{ post.hashtags }} </td>
           <td> {{ post.tags }} </td>
           <td> {{ post.altText }} </td>
-          <td><button (click) = "updatePost(post.id)" class = "btn btn-info"> Update/View</button></td>
+          <td><button (click) = "updatePost(post.id)" class = "btn btn-success"> Update/View</button></td>
           <td><button (click) = "deletePost(post.id)" class = "btn btn-danger"> Delete</button></td>
         </tr>
         </tbody>
       </table>
+
+    </div>
 <!--    </div>-->
 
 <!--  </div>-->

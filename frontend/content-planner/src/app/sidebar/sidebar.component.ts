@@ -12,10 +12,10 @@ declare interface RouteInfo {
 export const ROUTES: RouteInfo[] = [
     { path: '/dashboard', title: 'Dashboard',  icon: 'pe-7s-graph', class: '' },
     { path: '/user', title: 'User',  icon:'pe-7s-user', class: '' },
-    { path: '/insta', title: 'Instagram Draft',  icon:'pe-7s-note', class: '' },
-    { path: '/icons', title: 'Icons',  icon:'pe-7s-science', class: '' },
+    { path: '/insta', title: 'Create Draft',  icon:'pe-7s-note', class: '' },
+    { path: '/icons', title: 'View Drafts',  icon:'pe-7s-photo-gallery', class: '' },
     { path: '/upgrade', title: 'Upgrade to PRO',  icon:'pe-7s-rocket', class: 'active-pro' },
-    { path: '/inspo', title: 'Inspiration',  icon:'pe-7s-note', class: '' },
+    { path: '/inspo', title: 'Inspiration',  icon:'pe-7s-magic-wand', class: '' },
 ];
 
 @Component({
